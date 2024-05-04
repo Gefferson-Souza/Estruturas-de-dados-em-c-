@@ -1,6 +1,6 @@
 # Estudo de estruturas de dados em c++
 
-Este repositório foi criado para o estudo e implementação de estruturas de dados utilizando a linguagem de programação C++.
+Este repositório é um espaço dedicado ao aprendizado e prática de estruturas de dados usando a linguagem C++. É ideal para quem deseja entender como armazenar e gerenciar dados de maneira eficiente em C++.
 
 ## Vetores
 

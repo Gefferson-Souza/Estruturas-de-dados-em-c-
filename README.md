@@ -28,3 +28,18 @@ A biblioteca padrão de C++ (`std::stack`) oferece uma implementação robusta d
   - `pop`: Remove o elemento do topo.
   - `top`: Acessa o elemento do topo sem removê-lo.
 - **Uso Comum**: Ideal para situações que exigem a reversão de sequências de operações ou para resolver problemas que envolvem recursividade.
+
+## Filas
+
+Filas são uma estrutura de dados fundamental em C++ que operam sob o princípio **FIFO** (_First In, First Out_ - Primeiro a Entrar, Primeiro a Sair). Isso significa que o primeiro elemento adicionado é o primeiro a ser removido.
+
+A implementação de fila apresentada aqui é uma fila circular, que utiliza a aritmética modular para tratar o final da fila como se fosse conectado ao início.
+
+### Características das Filas:
+
+- **FIFO**: Operam pelo princípio _First In, First Out_.
+- **Acesso Restrito**: Somente o elemento na frente é acessível e removível.
+- **Operações Principais**:
+  - `enqueue`: Adiciona um elemento ao final.
+  - `dequeue`: Remove o elemento da frente.
+- **Uso Comum**: Ideal para situações que exigem a manutenção da ordem original dos elementos.
